@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Real-estate-react/static/css/main.dce11b91.css",
+    "main.js": "/Real-estate-react/static/js/main.2cf39e5f.js",
+    "static/js/787.a83accd8.chunk.js": "/Real-estate-react/static/js/787.a83accd8.chunk.js",
+    "index.html": "/Real-estate-react/index.html",
+    "main.dce11b91.css.map": "/Real-estate-react/static/css/main.dce11b91.css.map",
+    "main.2cf39e5f.js.map": "/Real-estate-react/static/js/main.2cf39e5f.js.map",
+    "787.a83accd8.chunk.js.map": "/Real-estate-react/static/js/787.a83accd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dce11b91.css",
+    "static/js/main.2cf39e5f.js"
+  ]
+}

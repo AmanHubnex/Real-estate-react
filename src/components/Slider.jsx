@@ -119,7 +119,7 @@ const Slider = () => {
 
       <div className="flex flex-col items-center gap-6 mt-20">
         <span className="text-pink-500 font-semibold text-2xl md:text-3xl">
-          📱 +91 5324554385
+          📱 +91 9555152033
         </span>
         <h3 className="uppercase text-3xl font-semibold text-purple-500 text-center md:text-4xl lg:text-6xl lg:font-medium xl:text-7xl">
           LET'S FIND YOU TOGETHER THE PLACE YOU DESERVE

@@ -18,14 +18,16 @@ const Hero2 = () => {
               <h6 className="uppercase text-xl">Who we are</h6>
               <h4 className="uppercase text-5xl lg:text-6xl">About Us</h4>
               <div className="w-16 h-0.5 bg-white mt-5 mb-2"></div>
-              <p className="text-xl tracking-wider max-w-md">
-                TO BE THE HIGHEST VALUE PROVIDER OF GLOBAL CONSTRUCTION SERVICES
-                AND TECHNICAL EXPERTISE.
+              <p className="text-xl md:text-2xl lg:text-3xl tracking-wider max-w-md ">
+                आप सपने बुनिये,
+              </p>
+              <p className="text-xl md:text-2xl lg:text-3xl tracking-wider max-w-md ">
+                सच हम करेंगे !
               </p>
             </div>
 
             <div className="hidden md:flex">
-              <div className="">
+              {/* <div className="">
                 <img
                   src="https://www.manglamgroup.com/wp-content/uploads/2015/11/aangan-prime-Sample-Villa-12.jpg"
                   alt=""
@@ -36,8 +38,8 @@ const Hero2 = () => {
                   alt=""
                   className="w-20 h-20 lg:w-32 lg:h-28 object-cover m-2"
                 />
-              </div>
-              <div className="">
+              </div> */}
+              <div className="flex">
                 <img
                   src="https://www.manglamgroup.com/wp-content/uploads/2015/11/aangan-prime-Sample-Villa-12.jpg"
                   alt=""
@@ -51,13 +53,17 @@ const Hero2 = () => {
               </div>
             </div>
 
-            <p className="text-xl tracking-wider max-w-md text-white">
-              RVD is an association of 4 different companies in construction and
-              development and it is a leading builder in diverse market
-              segments. The company has earned recognition for undertaking
-              large, complex projects, fostering innovation, embracing emerging
-              technologies, and making a difference for their clients, employees
-              and community.
+            <p className="text-xl tracking-wider max-w-md text-white my-8">
+              <h6 className="underline text-xl md:text-2xl lg:text-3xl xl:text-6xl pb-4">
+                OFFERS
+              </h6>
+
+              <ul className="list-disc text-2xl md:text-3xl lg:text-4xl font-light">
+                <li>Celebrate New Year with Us</li>
+                <li>50% Registration Cost Free</li>
+                <li>New Year, New Plots, New Offer</li>
+                <li>10% Discount on Full Payment</li>
+              </ul>
             </p>
             <button className="bg-purple-500 hover:bg-purple-600 text-white px-10 py-2 text-xl font-semibold lg:text-2xl my-2">
               Contact

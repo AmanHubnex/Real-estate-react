@@ -1,13 +1,13 @@
 import React from "react";
 import Card from "./Card";
 
-const Cards = ({ cardsData }) => {
+const Cards = ({ cardsData, heading }) => {
   return (
     <div className="min-h-screen bg-blue-100">
       <div className="text-center py-5 lg:py-8">
-        <span className="uppercase text-xl md:text-2xl">Featured Listings</span>
+        <span className="uppercase text-xl md:text-2xl">{heading}</span>
         <h3 className="uppercase text-3xl pt-2 sm:text-4xl text-purple-500 font-semibold md:text-5xl lg:text-6xl">
-          Find your perfect home
+          Don't wait to buy Property, Buy Property and wait.
         </h3>
 
         <div className="w-16 h-0.5 bg-purple-600 mx-auto mt-5 mb-2"></div>
